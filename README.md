@@ -10,7 +10,7 @@ Test One: Enum
 
 Test Two: Exception
 |          Method |     Mean |    Error |   StdDev |  Gen 0 | Allocated |
-| --------------- | --------:| --------:| --------:| ------:| ---------:|
-| ExToString      | 21.52 us | 0.357 us | 0.298 us | 0.6714 |      3 KB |
-| ExInterpolation | 22.20 us | 0.415 us | 0.388 us | 0.7935 |      3 KB |
-| ExSerialize     | 33.01 us | 0.620 us | 0.738 us | 1.8921 |      8 KB |
+|---------------- |---------:|---------:|---------:|-------:|----------:|
+|      ExToString | 22.42 us | 0.424 us | 0.435 us | 0.6714 |      3 KB |
+| ExInterpolation | 24.15 us | 0.480 us | 1.102 us | 0.7935 |      3 KB |
+|     ExSerialize | 32.34 us | 0.391 us | 0.346 us | 1.8921 |      8 KB |
