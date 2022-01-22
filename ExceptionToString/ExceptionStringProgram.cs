@@ -39,7 +39,7 @@ public class ExceptionStringProgram
         }
         catch (Exception ex)
         {
-            return JsonConvert.SerializeObject(ex)";
+            return JsonConvert.SerializeObject(ex);
         }
     }
 }
